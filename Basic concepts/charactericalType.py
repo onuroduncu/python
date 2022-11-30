@@ -1,4 +1,4 @@
-#CHARACTER ARRAYS(CHAR - STRING)
+#characterical Types(CHAR - STRING)
 #--------------------------------------------
 
 #For single line comment
