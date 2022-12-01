@@ -22,6 +22,7 @@ print("Hello" + " " + "World") #Hello World
 
 #Actually string is sum of char arrays.
 print("H" "E" "L" "L" "O") #HELLO
+print("H" " I") #H I
 
 print("C" * 6 + "H" * 2 + "A" "R") #CCCCCCHHAR
 
