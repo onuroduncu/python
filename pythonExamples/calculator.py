@@ -30,5 +30,5 @@ while(state):
         print("Invalid selection")
     print("do you break? Yes(Y) No(N)")
     selection2 = input("--> ")
-    if selection2 == "N":
+    if selection2 == "Y":
         state =False
