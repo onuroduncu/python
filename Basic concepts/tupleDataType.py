@@ -19,6 +19,8 @@ print(myTuple3) #sample
 print(type(myTuple3)) #<class 'str'>
 print(myTuple3[0]) #s
 print(myTuple3[5]) #e
+myTuple3 = ("sample",)
+print(type(myTuple3)) #<class 'tuple'>
 
 #single element or more is diffrent statues
 myTuple4 = ("sample","state" )
@@ -52,3 +54,6 @@ print(newtuple) #((), (), 'sample', ('sample', 'state'))
 newtext = "Python"
 newtuple2 = tuple(newtext)
 print(newtuple2) #('P', 'y', 't', 'h', 'o', 'n')
+
+#the functions of tuple data type
+print(dir(tuple))

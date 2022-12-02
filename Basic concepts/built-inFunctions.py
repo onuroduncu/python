@@ -1,6 +1,7 @@
 #built-in functions
 #-------------------------------
 
+print(print) #<built-in function print>
 s = "Hello World"
 print(s + "!") #Hello World!
 
@@ -32,3 +33,5 @@ print(len("Python")) #6
 print(len("")) #0
 str = "Hello World"
 print(len(str)) #11
+
+print(len("a")) #1
