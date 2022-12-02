@@ -69,3 +69,8 @@ print(id(fruits2)) #1799630517056
 
 text = "Hello World"
 print(list(text)) #['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
+
+#it can hold the all of list in one list
+newList = [fruits , fruits2 , numbers, diffList]
+print(newList) #['H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd']
+               #[['watermelon', 'banana', 'pineapple', 'pear', 'kiwi'], ['watermelon', 'banana', 'pineapple', 'pear', 'kiwi'], [5, 3, 8, #7, 9, 6, 1, 2], #[2j, 'b', 12.4, True]]
