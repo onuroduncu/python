@@ -49,7 +49,7 @@ print(y) #Hello
 def strText():
     global z
     z = "World" #local variable
-#strText()
+strText()
 print(z) #NameError: name 'z' is not defined
 
 def strText():
@@ -57,6 +57,15 @@ def strText():
     t = "World" #local variable
 strText() 
 print(t)
+
+def numbers(*infinite):
+    print(infinite)
+numbers(1,2,3,4,5,6)
+
+def sayMyName(**infinite):
+    print(infinite)
+sayMyName(name="hazel",surname = "Nickholson")
+#{'name': 'hazel', 'surname': 'Nickholson'}
 
 #def strText1(p1): #IndentationError: expected an indented block after function definition on line 61
 #strText1()
