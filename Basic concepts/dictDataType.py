@@ -1,5 +1,5 @@
 #dictionary data type (collections) {}
-#key:value
+#key:value #unoredered
 #-------------------------------------------
 
 myDict = {}
@@ -25,6 +25,8 @@ print(myDict3) #{'2': 'b', '3': 'c'}
 print(len(myDict3)) #2
 myDict3["4"] = "d"
 print(myDict3) #{'2': 'b', '3': 'c', '4': 'd'}
+myDict3[tuple("a")] = "t"
+print(myDict3) #{'2': 'b', '3': 'c', '4': 'd', ('a',): 't'}
 
 myList = [1,2,3]
 myDict4 = {"numbers":myList}

@@ -67,3 +67,9 @@ text ="Python"
 print(type(frozenset(text))) #<class 'frozenset'>
 fSet = frozenset(text)
 print(fSet) #frozenset({'P', 'n', 'y', 'h', 'o', 't'})
+
+a = set([1,3,5])
+b = set([4,5,6])
+print(a.symmetric_difference(b)) #{1, 3, 4, 6}
+a.intersection_update(b)
+print(a) #{5}
