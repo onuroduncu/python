@@ -8,9 +8,10 @@ def printText():
     print("Hello World")
 printText()
 
-def welcome(name):
-    print("Welcome" , name,sep=" ")
-print(welcome(input("Please enter your name: ")))
+#predefined functions
+def welcome(name,split = " "):
+    print("Welcome" +split+name)
+print(welcome(input("Please enter your name: "),split="/"))
 #print(welcome()) #TypeError: welcome() missing 1 required positional argument: 'name'
 
 def mult(number1,number2):
