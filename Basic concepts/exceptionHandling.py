@@ -18,6 +18,8 @@ while True:
     except ValueError as message:
         print("Please enter numerical values.\nReason of error: ",message)
         raise
+    else:
+        print("Error resolved")
     finally:
         print("The program has been terminated.")
 
